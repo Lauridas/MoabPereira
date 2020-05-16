@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: auto 100vh;
+    font-size: 12px;
+    font-family: 'Roboto', cursive;
+}
+
+.projeto,
+header {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.inicio {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #ff6600;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: solid;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: background-color 1s, color 1s;
+}
+
+.menu a:active,
+.menu a:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: underline;
+}
+
+.inicio figure {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.img-logo {
+    height: 150px;
+    width: 360;
+    margin-top: 5em;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 4em;
+}
+
+.container {
+    margin-bottom: 2em;
+    width:100%;
+    padding-right:10em;
+    padding-left:10em;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.projeto {
+    background-color: #f7f1ee;
+    padding: 5em;
+}
+
+.projeto h2 {
+    color: black;
+    margin-bottom: 1.5em;
+    font-size: 3em;
+}
