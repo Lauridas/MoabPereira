@@ -1,43 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moab Augusto</title>
+    <title>Moab Pereira</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="inicio">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="#">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">PROJETOS</a>
-                    </li>
-                    <li>
-                        <a href="#">CONTATO</a>
-                    </li>
-                    <li>
-                        <a href="#">SOBRE</a>
-                    </li>
-                </ul>
-            </nav>
-            <figure>
-                <img src="./img/logo.png" alt="" class="img-logo">
-            </figure>
-            <div class="subtitulo container">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugiat delectus! Commodi maiores est quidem minus ratione adipisci provident laboriosam consequatur, optio at dolor explicabo accusamus molestiae aperiam. Nesciunt, quo.
-                </p>
-            </div>
-        </div>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header id="inicio">
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <figure>
+          <img src="./img/logo.png" alt="Moab Pereira">
+        </figure>
+      </div>
     </header>
-    <section class="projeto" id="projetos">
-        <h2 class="titulo">PROJETOS</h2>
+    
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+              <h3>teste</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+              <h3>teste</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+				      <h3>teste</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+              <h3>teste</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+              <h3>teste</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/exemplo.jpg" alt="teste">
+            </figure>
+            <div class="card-back">
+				      <h3>teste</h3>
+            </div>
+          </div>
+        </div>
     </section>
-</body>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="./img/moab.jpg" alt="Moab Pereira">
+      </figure>
+      <p class="site-subtitle">
+        Estudante de Engenharia Mecânica (UFRN) com foco na área térmica. Atualmente trabalho com projetos de climatização, desde o levantamento de carga térmica até a representação em CAD. Também atuo na área de planejamento de manutenção voltada a máquinas térmicas, com levantamente de ativos e desenvolvimento de PMOC.
+        Também sou pesquisador na área de trocadores de calor.
+      </p>
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/moabaugusto">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/moab-pereira-2b90b9197/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/augustomoab/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
